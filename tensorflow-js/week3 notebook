@@ -1,0 +1,8 @@
+add following code at the begining of notebook
+
+!pip install tensorflow==2.0.0
+!pip install tensorflowjs==1.2.9
+
+
+
+https://www.coursera.org/learn/browser-based-models-tensorflow/discussions/weeks/3/threads/GxAA0kPSRHOQANJD0jRzAg
