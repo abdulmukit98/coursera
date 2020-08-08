@@ -10,8 +10,9 @@
     A technique that reduces precision and model size to work better on mobile
 
 
-3 The TFLite file format is an example of what?
-    
+3 The TFLite file format is an example of what
+
+    A flatbuffer
     
 
 4 Question 4
@@ -43,8 +44,17 @@ Which types of input does the TF Lite Convertor API Accept (Check all that apply
 
 8 If I have a keras model and want to convert it, what’s the method signature on TFLiteConverter
 
+    from_keras_model(model)
 
 9  If I want to convert using a command line tool, what’s the name of the tool?
 
     tflite_convert
+
+
+Question 10
+If I want to do post training quantization, what are the optimization options available (check all that apply)
+
+    OPTIMIZE_FOR_SIZE
+
+    OPTIMIZE_FOR_LATENCY
 
