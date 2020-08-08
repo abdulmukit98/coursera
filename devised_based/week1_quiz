@@ -1,0 +1,50 @@
+1 What platforms are supported by TensorFlow Lite (Check all that apply)
+
+  android
+  ios
+  some micro_crontroller
+  raspberry pi
+  
+2 What is Quantization?
+
+    A technique that reduces precision and model size to work better on mobile
+
+
+3 The TFLite file format is an example of what?
+    
+    
+
+4 Question 4
+Which types of input does the TF Lite Convertor API Accept (Check all that apply)
+
+    A set of concrete functions
+
+    A SavedModel
+
+    A Keras HDF5 file
+
+
+5 True or False: The SavedModel format supports model Versioning
+
+    True
+
+
+6 If I want to save an existing Keras model, what’s the API signature:
+
+      tf.saved_model.save(model, path)
+
+
+
+7 If I want to use the TensorFlow Lite Convertor to convert a saved model to TF Lite, what’s the API signature?
+
+    converter = tf.lite.TFLiteConverter.from_saved_model(path) newModel = converter.convert()
+
+
+
+8 If I have a keras model and want to convert it, what’s the method signature on TFLiteConverter
+
+
+9  If I want to convert using a command line tool, what’s the name of the tool?
+
+    tflite_convert
+
